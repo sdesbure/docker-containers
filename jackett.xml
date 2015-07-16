@@ -38,8 +38,15 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>path to config</HostDir>
+      <HostDir>path to supervisor log</HostDir>
       <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/opt/Jackett/.config/Jackett</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
