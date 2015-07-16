@@ -8,8 +8,9 @@
     Jackett creates a [Torznab](https://github.com/Sonarr/Sonarr/wiki/Implementing-a-Torznab-indexer) API server on your machine that any Torznab enabled software can consume. Jackett works as a proxy server: it translates Torznab queries into tracker-site-specific http queries, parses the html response into Torznab results, then sends results back to the requesting software. 
 
     Currently [Sonarr](https://sonarr.tv/) is the only software that uses Torznab. [Couchpotato](https://couchpota.to/) will hopefully get Torznab support in the future.[br][br]
-    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where sonarr will store it's configuration files and logs.[br]
+    [b][u][span style='color: #071132006;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where supervisor will store it's logs.[br]
+    [b]/opt/Jackett/.config/Jackett[/b] This is where Jackett will store it's config files & logs.[br]
   </Description>
   <Overview>
     Use just about any tracker with Sonarr
