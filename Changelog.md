@@ -4,3 +4,4 @@
 
 ###### [NEW] Jackett container released
 ###### [ISSUE] Adding another volume to Jackett
+###### [ISSUE] New Version of Jackett
