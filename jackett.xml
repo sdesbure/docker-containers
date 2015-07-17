@@ -43,8 +43,6 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-  </Data>
-  <Data>
     <Volume>
       <HostDir>path to config</HostDir>
       <ContainerDir>/opt/Jackett/.config/Jackett</ContainerDir>
