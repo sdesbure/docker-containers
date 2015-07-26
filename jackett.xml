@@ -3,7 +3,11 @@
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
   <Name>Jackett</Name>
-  <Date>2015-07-17</Date>
+  <Date>2015-07-26</Date>
+<Changes>
+  [b]26.07.2015:[/b] Make container install work with 0.5.0+ versions
+  [b]17.07.2015:[/b] Jackett container update linking to main repo.
+  [b]16.07.2015:[/b] First version</Changes>
   <Description>
     Jackett creates a [Torznab](https://github.com/Sonarr/Sonarr/wiki/Implementing-a-Torznab-indexer) API server on your machine that any Torznab enabled software can consume. Jackett works as a proxy server: it translates Torznab queries into tracker-site-specific http queries, parses the html response into Torznab results, then sends results back to the requesting software. 
 
