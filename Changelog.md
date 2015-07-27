@@ -1,6 +1,10 @@
 # Changelog
 ##### [2015/07/26]
 
+###### [ISSUE]Reusing my fork which is Linux friendly
+
+##### [2015/07/26]
+
 ###### [UPDATE] Jackett container updated to make it work with 0.5.0+ versions of Jackett
 
 ##### [2015/07/17]

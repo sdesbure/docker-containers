@@ -5,6 +5,7 @@
   <Name>Jackett</Name>
   <Date>2015-07-26</Date>
 <Changes>
+  [b]27.07.2015:[/b] Reusing my fork which is Linux friendly
   [b]26.07.2015:[/b] Make container install work with 0.5.0+ versions
   [b]17.07.2015:[/b] Jackett container update linking to main repo.
   [b]16.07.2015:[/b] First version</Changes>
