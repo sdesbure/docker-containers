@@ -4,8 +4,9 @@
   <Category>HomeAutomation: Backup: Cloud:</Category>
   <Name>Netatmo Librato</Name>
   <Date>2015-07-28</Date>
-<Changes>
-  [b]28.07.2015:[/b] first version
+  <Changes>
+    [b]28.07.2015:[/b] first version
+  </Changes>
   <Description>
     Netatmo Librato pushes value from your [netatmo thermostat and weather station](https://www.netatmo.com/) to [librato cloud metrics](https://www.librato.com/)
     In order to use it, you need a developper login from netatmo and an app creation to retrieve a secret token. You also need a token from your librato metrics account.
