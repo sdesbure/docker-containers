@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>HomeAutomation: Backup: Cloud:</Category>
+  <Name>Netatmo Librato</Name>
+  <Date>2015-07-28</Date>
+<Changes>
+  [b]28.07.2015:[/b] first version
+  <Description>
+    Netatmo Librato pushes value from your [netatmo thermostat and weather station](https://www.netatmo.com/) to [librato cloud metrics](https://www.librato.com/)
+    In order to use it, you need a developper login from netatmo and an app creation to retrieve a secret token. You also need a token from your librato metrics account.
+    Then you have to create a secret.yml file according to this [pattern](https://github.com/sdesbure/netatmo_librato/blob/master/secret.yml.example) and put it in /config volume
+    [b][u][span style='color: #071132006;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where secret.yml should belong supervisor will store it's logs.[br]
+  </Description>
+  <Overview>
+     pushes value from your netatmo thermostat and weather station to librato cloud metrics](https://www.librato.com/
+  </Overview>
+  <Support>https://lime-technology.com/forum/index.php?topic=41543.0</Support>
+  <Registry>https://registry.hub.docker.com/u/sdesbure/alpine-netatmo-librato/</Registry>
+  <GitHub>https://github.com/sdesbure/alpine_netatmo_librato</GitHub>
+  <Repository>sdesbure/alpine_netatmo_librato</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/netatmo_librato_banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/netatmo_librato_logo.png</Icon>
+</Containers>

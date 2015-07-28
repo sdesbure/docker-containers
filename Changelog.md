@@ -1,4 +1,8 @@
 # Changelog
+##### [2015/07/28]
+
+###### [NEW] Netatmo_Librato container released
+
 ##### [2015/07/26]
 
 ###### [ISSUE]Reusing my fork which is Linux friendly
