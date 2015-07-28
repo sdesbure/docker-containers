@@ -20,7 +20,7 @@
   <Support>https://lime-technology.com/forum/index.php?topic=41543.0</Support>
   <Registry>https://registry.hub.docker.com/u/sdesbure/alpine-netatmo-librato/</Registry>
   <GitHub>https://github.com/sdesbure/alpine_netatmo_librato</GitHub>
-  <Repository>sdesbure/alpine_netatmo_librato</Repository>
+  <Repository>sdesbure/alpine-netatmo-librato</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
