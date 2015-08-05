@@ -3,8 +3,9 @@
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
   <Name>Jackett</Name>
-  <Date>2015-07-26</Date>
+  <Date>2015-08-05</Date>
 <Changes>
+  [b]05.08.2015:[/b] Use of 0.6 version of Jackett. [b][span style='color: #071132006;']/!\configuration directory has changed![/span][/b]
   [b]27.07.2015:[/b] Reusing my fork which is Linux friendly
   [b]26.07.2015:[/b] Make container install work with 0.5.0+ versions
   [b]17.07.2015:[/b] Jackett container update linking to main repo.
@@ -15,7 +16,7 @@
     Currently [Sonarr](https://sonarr.tv/) is the only software that uses Torznab. [Couchpotato](https://couchpota.to/) will hopefully get Torznab support in the future.[br][br]
     [b][u][span style='color: #071132006;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where supervisor will store it's logs.[br]
-    [b]/opt/Jackett/.config/Jackett[/b] This is where Jackett will store it's config files and logs.[br]
+    [b]/usr/share/Jackett/.config/Jackett/[/b] This is where Jackett will store it's config files and logs.[br]
   </Description>
   <Overview>
     Use just about any tracker with Sonarr
@@ -50,7 +51,7 @@
     </Volume>
     <Volume>
       <HostDir>path to config</HostDir>
-      <ContainerDir>/opt/Jackett/.config/Jackett</ContainerDir>
+      <ContainerDir>/usr/share/Jackett/.config/Jackett/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>

@@ -1,4 +1,8 @@
 # Changelog
+##### [2015/08/06]
+
+###### [UPDATE] moved to Jacket 0.6.0
+
 ##### [2015/07/28]
 
 ###### [NEW] Netatmo_Librato container released
