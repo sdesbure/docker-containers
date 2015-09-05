@@ -1,4 +1,8 @@
 # Changelog
+##### [2015/09/05]
+
+###### [UPDATE] moved to Jacket 0.6.3
+
 ##### [2015/08/06]
 
 ###### [UPDATE] moved to Jacket 0.6.0
