@@ -1,4 +1,8 @@
 # Changelog
+##### [2015/09/06]
+
+###### [NEW] Domoticz container released
+
 ##### [2015/09/05]
 
 ###### [UPDATE] moved to Jacket 0.6.3

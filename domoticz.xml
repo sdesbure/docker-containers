@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>HomeAutomation: </Category>
+  <Name>Domoticz</Name>
+  <Date>2015-09-06</Date>
+  <Changes>[b]06.09.2015:[/b] First version</Changes>
+  <Description>
+    [Domotricz](http://domoticz.com/) is an home automation server. It supports many protocol and devices (see here for the list: [wiki](https://www.domoticz.com/wiki/Hardware)).
+    This build is compiled with OpenZwave support.
+
+    [b][u][span style='color: #071132006;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where Domoticz has the logs and it's database (sqlite)[br]
+    [b]/dev/ttyUSB0[/b] add this (or any other serial device created by your USB interfaces) if you want to control sticks (such as RFXCOM, OpenZwave plugs,...)[br]
+  </Description>
+  <Overview>
+    An Home automation Server
+  </Overview>
+  <Support>https://lime-technology.com/forum/index.php?topic=41543.0</Support>
+  <Registry>https://registry.hub.docker.com/u/sdesbure/domoticz</Registry>
+  <GitHub>https://github.com/sdesbure/docker_domoticz</GitHub>
+  <Repository>sdesbure/domoticz</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config and logs</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/domoticz-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/domoticz-icon.png</Icon>
+</Containers>
