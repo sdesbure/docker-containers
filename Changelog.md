@@ -1,4 +1,9 @@
 # Changelog
+##### [2015/09/07]
+
+###### [UPDATE] moved to Jacket 0.6.4
+###### [ISSUE] changed the way to handle USB devices
+
 ##### [2015/09/06]
 
 ###### [NEW] Domoticz container released

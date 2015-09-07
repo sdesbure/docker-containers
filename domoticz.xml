@@ -3,15 +3,20 @@
   <Beta>False</Beta>
   <Category>HomeAutomation: </Category>
   <Name>Domoticz</Name>
-  <Date>2015-09-06</Date>
-  <Changes>[b]06.09.2015:[/b] First version</Changes>
+  <Date>2015-09-07</Date>
+  <Changes>
+    [b]07.09.2015:[/b] Moved USB devices to extra parameters
+    [b]06.09.2015:[/b] First version
+  </Changes>
   <Description>
     [Domotricz](http://domoticz.com/) is an home automation server. It supports many protocol and devices (see here for the list: [wiki](https://www.domoticz.com/wiki/Hardware)).
     This build is compiled with OpenZwave support.
 
     [b][u][span style='color: #071132006;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where Domoticz has the logs and it's database (sqlite)[br]
-    [b]/dev/ttyUSB0[/b] add this (or any other serial device created by your USB interfaces) if you want to control sticks (such as RFXCOM, OpenZwave plugs,...)[br]
+
+    [b][u][span style='color: #071132006;']ExtraParameters[/span][/u][/b][br]
+    [b]--device=/dev/ttyUSB0[/b] add this (or any other serial device created by your USB interfaces) if you want to control sticks (such as RFXCOM, OpenZwave plugs,...)[br]
   </Description>
   <Overview>
     An Home automation Server
@@ -45,6 +50,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <ExtraParams>--device=/dev/ttyUSB0</ExtraParams>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/domoticz-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/domoticz-icon.png</Icon>
