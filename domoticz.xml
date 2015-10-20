@@ -3,8 +3,9 @@
   <Beta>False</Beta>
   <Category>HomeAutomation: </Category>
   <Name>Domoticz</Name>
-  <Date>2015-09-07</Date>
+  <Date>2015-10-20</Date>
   <Changes>
+    [b]20.10.2015:[/b] New version of domoticz (from the git)
     [b]07.09.2015:[/b] Moved USB devices to extra parameters
     [b]06.09.2015:[/b] First version
   </Changes>
