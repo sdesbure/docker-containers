@@ -1,4 +1,8 @@
 # Changelog
+##### [2015/11/11]
+
+###### [UPDATE] moved to Jacket 0.6.45 and using alpine linux as base os
+
 ##### [2015/10/17]
 
 ###### [UPDATE] moved to Jacket 0.6.9
