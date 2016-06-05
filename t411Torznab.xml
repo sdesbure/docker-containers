@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>Downloaders: MediaApp:Video</Category>
+  <Name>Domoticz</Name>
+  <Date>2016-06-05</Date>
+  <Changes>
+    [b]05.06.2016:[/b] First version
+  </Changes>
+  <Description>
+    [T411](http://www.t411.ch/) is a french private torrent site. This app maps the t411 api into a torznab compatible API in order to make it work with Sonarr. No work done by me but done by [KiLMaN](https://github.com/KiLMaN) for the code and [bidule95](https://hub.docker.com/u/bidulle95/) for the push inot docker registry. Thanks guys!
+    [b][u][span style='color: #071132006;']Environment variables[/span][/u][/b][br]
+    [b]USERNAME[/b]your username in t411[br]
+    [b]PASSWORD[/b]your password in t411[br]
+  </Description>
+  <Overview>
+    Transform t411 in torznab compatible feeder for sonarr
+  </Overview>
+  <Support>https://github.com/KiLMaN/T411-Torznab/issues</Support>
+  <Registry>https://hub.docker.com/r/bidulle95/t411-torznab/</Registry>
+  <GitHub>https://github.com/KiLMaN/T411-Torznab</GitHub>
+  <Repository>sdesbure/T411Torznab</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9876</HostPort>
+        <ContainerPort>9876</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>USERNAME</Name>
+      <Value>t411</Value>
+    </Variable>
+    <Variable>
+      <Name>PASSWORD</Name>
+      <Value>t411</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+  </Data>
+  <ExtraParams></ExtraParams>
+  <WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/t411-torznab-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/sdesbure/docker-containers/master/images/t411-torznab-icon.png</Icon>
+</Containers>
