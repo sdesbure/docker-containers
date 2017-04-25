@@ -17,7 +17,7 @@
     Transform t411 in torznab compatible feeder for sonarr
   </Overview>
   <Support>https://github.com/KiLMaN/T411-Torznab/issues</Support>
-  <Registry>https://hub.docker.com/r/bidulle95/t411-torznab/</Registry>
+  <Registry>https://github.com/sdesbure/T411-Torznab</Registry>
   <GitHub>https://github.com/KiLMaN/T411-Torznab</GitHub>
   <Repository>sdesbure/T411Torznab</Repository>
   <BindTime>true</BindTime>
